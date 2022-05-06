@@ -123,6 +123,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 		System.out.print(node.data+ " ");
 		preOrderRecurse(node.leftChild);
 		preOrderRecurse(node.rightChild);
+		//help
 	}
 	
 	//Traverse the tree in an preorder fashion but using a stack
